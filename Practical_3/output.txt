@@ -1,0 +1,110 @@
+saurabhwagh@Saurabhs-MacBook-Air Practical_3 % python3 knapsach.py
+Index: 1    Weight: 0    Profit: 83
+Index: 12    Weight: 0    Profit: 600
+Index: 19    Weight: 0    Profit: 17
+Index: 44    Weight: 0    Profit: 33
+Index: 30    Weight: 2    Profit: 514
+Index: 14    Weight: 3    Profit: 48
+Index: 39    Weight: 3    Profit: 36
+Index: 31    Weight: 4    Profit: 28
+Index: 27    Weight: 6    Profit: 42
+Index: 0    Weight: 7    Profit: 360
+Index: 34    Weight: 7    Profit: 78
+Index: 15    Weight: 8    Profit: 147
+Index: 18    Weight: 9    Profit: 63
+Index: 6    Weight: 11    Profit: 230
+Index: 49    Weight: 13    Profit: 312
+Index: 16    Weight: 15    Profit: 78
+Index: 11    Weight: 18    Profit: 892
+Index: 32    Weight: 18    Profit: 87
+Index: 46    Weight: 20    Profit: 19
+Index: 3    Weight: 22    Profit: 130
+Index: 24    Weight: 26    Profit: 92
+Index: 28    Weight: 29    Profit: 50
+Index: 35    Weight: 29    Profit: 15
+Index: 2    Weight: 30    Profit: 59
+Index: 42    Weight: 31    Profit: 274
+Index: 23    Weight: 32    Profit: 35
+Index: 13    Weight: 36    Profit: 38
+Index: 17    Weight: 42    Profit: 256
+Index: 20    Weight: 42    Profit: 120
+Index: 37    Weight: 44    Profit: 78
+Index: 21    Weight: 47    Profit: 164
+Index: 25    Weight: 48    Profit: 110
+Index: 22    Weight: 52    Profit: 432
+Index: 48    Weight: 52    Profit: 276
+Index: 26    Weight: 55    Profit: 22
+Index: 33    Weight: 56    Profit: 73
+Index: 10    Weight: 33.0    Profit: 374.74576271186436
+
+
+Maximum Profit: 6265.745762711865
+
+
+
+
+Index: 11    Weight: 18    Profit: 892
+Index: 10    Weight: 59    Profit: 670
+Index: 12    Weight: 0    Profit: 600
+Index: 30    Weight: 2    Profit: 514
+Index: 22    Weight: 52    Profit: 432
+Index: 4    Weight: 80    Profit: 431
+Index: 47    Weight: 65    Profit: 389
+Index: 0    Weight: 7    Profit: 360
+Index: 29    Weight: 84    Profit: 323
+Index: 49    Weight: 13    Profit: 312
+Index: 48    Weight: 52    Profit: 276
+Index: 42    Weight: 31    Profit: 274
+Index: 17    Weight: 42    Profit: 256
+Index: 6    Weight: 11    Profit: 230
+Index: 38    Weight: 71    Profit: 210
+Index: 41    Weight: 66    Profit: 189
+Index: 21    Weight: 47    Profit: 164
+Index: 15    Weight: 8    Profit: 147
+Index: 3    Weight: 22    Profit: 130
+Index: 9    Weight: 64    Profit: 125
+Index: 20    Weight: 42    Profit: 120
+Index: 25    Weight: 14.0    Profit: 32.083333333333336
+
+
+Maximum Profit: 7076.083333333333
+
+
+
+
+Index: 12    Weight: 0    Profit: 600
+Index: 30    Weight: 2    Profit: 514
+Index: 1    Weight: 0    Profit: 83
+Index: 0    Weight: 7    Profit: 360
+Index: 11    Weight: 18    Profit: 892
+Index: 44    Weight: 0    Profit: 33
+Index: 49    Weight: 13    Profit: 312
+Index: 6    Weight: 11    Profit: 230
+Index: 15    Weight: 8    Profit: 147
+Index: 19    Weight: 0    Profit: 17
+Index: 14    Weight: 3    Profit: 48
+Index: 39    Weight: 3    Profit: 36
+Index: 10    Weight: 59    Profit: 670
+Index: 34    Weight: 7    Profit: 78
+Index: 42    Weight: 31    Profit: 274
+Index: 22    Weight: 52    Profit: 432
+Index: 18    Weight: 9    Profit: 63
+Index: 27    Weight: 6    Profit: 42
+Index: 31    Weight: 4    Profit: 28
+Index: 17    Weight: 42    Profit: 256
+Index: 47    Weight: 65    Profit: 389
+Index: 3    Weight: 22    Profit: 130
+Index: 4    Weight: 80    Profit: 431
+Index: 48    Weight: 52    Profit: 276
+Index: 16    Weight: 15    Profit: 78
+Index: 32    Weight: 18    Profit: 87
+Index: 29    Weight: 84    Profit: 323
+Index: 24    Weight: 26    Profit: 92
+Index: 21    Weight: 47    Profit: 164
+Index: 38    Weight: 71    Profit: 210
+Index: 41    Weight: 66    Profit: 189
+Index: 20    Weight: 29.0    Profit: 82.85714285714286
+
+
+Maximum Profit: 7566.857142857143
+saurabhwagh@Saurabhs-MacBook-Air Practical_3 % 
