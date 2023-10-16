@@ -4,9 +4,13 @@ graph = [[0,0,0,0,0],
          [0,6,13,0,12],
          [0,8,8,9,0]]
 
+source = 3
+valueSet = set({4,3,2,1})
+valueSet.remove(source)
+
 def findingTSM(i,s,total):
     if s==set():
-        return graph[i][1]
+        return graph[i][source]
     else:
         mini = float('inf')
         for k in s:
@@ -17,4 +21,4 @@ def findingTSM(i,s,total):
         return total
             
 	
-print("Starting Vertex (1):",findingTSM(1,set({2,3,4}),0))
+print("Starting Vertex (",source,"): ",findingTSM(source,valueSet,0))
