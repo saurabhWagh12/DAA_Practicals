@@ -10,19 +10,25 @@ public class PossibleEqualMaximumSum{
         this.n = n;
     }
 
-    public int addInStack(int i,int num){
-        if(i==1){
-            s1.push(num);
-            return s1.peek();
-        }else if(i==2){
-            s2.push(num);
-            return s2.peek();
-        }else if(i==3){
-            s3.push(num);
-            return s3.peek();
+    public int addInStack(int i, int num) {
+        switch (i) {
+            case 1:
+                if(s1.size()<this.n)
+                    s1.push(num);
+                return s1.peek();
+            case 2:
+                if(s2.size()<this.n)
+                    s2.push(num);
+                return s2.peek();
+            case 3:
+                if(s3.size()<this.n)
+                    s3.push(num);
+                return s3.peek();
+            default:
+                return -1;
         }
-        return -1;
     }
+    
 
     private int findParticularSum(Stack<Integer> s){
         int sum=0;
