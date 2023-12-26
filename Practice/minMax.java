@@ -1,27 +1,30 @@
 public class minMax {
-    static int fmin=Integer.MAX_VALUE,fmax=Integer.MIN_VALUE,min=Integer.MAX_VALUE,min1=Integer.MAX_VALUE,max=Integer.MIN_VALUE,max1=Integer.MIN_VALUE;
-    public static void findMinMax(int arr[],int l,int h){
+    static int[] findMinMax(int arr[],int l,int h){
         if(l==h){
-            min = arr[l];
-            max = arr[l];
-            return;
-        }
-        if(l==h-1){
-            max = Math.max(arr[l],arr[h]);
-            min = Math.min(arr[l],arr[h]);
-            return;
-        }
-            int mid = l+(h-l)/2;
-            findMinMax(arr, l, mid-1);
-            findMinMax(arr, mid+1, h);
-            fmin = Math.min(Math.min(min,min1),fmin);
-            fmax = Math.max(Math.max(max,max1),fmax);
+            int f[] = {arr[l],arr[l]};
 
+            return f;
+        }else if(h-l==1){
+            int f[] = {Math.max(arr[h],arr[l]),Math.min(arr[h],arr[l])};
+            return f;
+        }
+
+        int mid = l+(h-l)/2;
+        int f1[] = findMinMax(arr, l, mid);
+        int f2[] = findMinMax(arr, mid+1, h);
+        System.out.println("f1: "+f1[0]+" "+f1[1]);
+        System.out.println("f2: "+f2[0]+" "+f2[1]);
+
+
+        int fm[] = new int[2];
+        fm[1] = Math.min(f1[1],f2[1]);
+        fm[0] = Math.max(f1[0],f2[0]);
+        return fm;
     }
     public static void main(String args[]){
-        int arr[] = {-10,70,12,-50,60,32,45,95,-19};
-        findMinMax(arr,0,8);
-        System.out.println(fmin+" "+fmax);
+        int arr[] = {-10,70,12,50,60,32,-45,9,19};
+        int f[] = findMinMax(arr,0,8);
+        System.out.println(f[1]+" "+f[0]);
     }
     
 }

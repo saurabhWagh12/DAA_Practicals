@@ -2,8 +2,9 @@ public class test{
     public static void main(String args[]){
 
         // int arr[] = {13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7};
-        int arr[] = {-2,-5,6,-2,-3,1,5,-6};
-        // int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
+        int arr[] = {-10, 56, -34, 78, 90, 10, -9, -19, 45, 67, 5};
+
+        
 
         int maxi = Integer.MIN_VALUE;
         int sum = 0,start=-1,end=-1;
